@@ -759,7 +759,15 @@ main a{
   color: white !important;
 }
 @media screen and (max-width: 767px) {
+  /* main {
 
+  } */
+  /* .top-side{
+    flex-direction: column;
+  } */
+  /* .left-side{
+    display: none;
+  } */
   .main-col-left-nav{
     display: none;
   }
@@ -775,21 +783,9 @@ main a{
   .my-logo-hidden {
     display: flex;
   }
-  .left-side,.pp-album{
+  .left-side,.pp-dateadded,.pp-album{
     display: none;
   }
-  /* .top-side{
-    flex-direction: column !important;
-  }
-  .main-col-left-library{
-    height: fit-content;
-    overflow-y: visible;
-    overflow: auto !important;
-  } */
-}
 
-@media screen and (max-width: 867px){
-  .pp-dateadded{
-    display: none;
-  }
-} 
+
+}
