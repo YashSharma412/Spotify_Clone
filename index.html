@@ -278,14 +278,13 @@
               <h3>Mediation Self</h3>
               <p>Ibn Hussain Aleen</p>
             </div>
-
-
+            
           </div>
         </section>
       </section>
       <footer class="main-player-bottom">
         <div class="music-player">
-          <div class="px-1 current-song-details d-flex align-items-center justify-content-center">
+          <div class="col-3 px-1 current-song-details d-flex align-items-center justify-content-start">
             <img class="current-song-img" src="./assets/current-song-image.jpeg" alt="current song image">
             <div class="d-flex flex-column align-items-start px-2">
               <h1>Dreaming On</h1>
@@ -294,16 +293,48 @@
             <a href="#"><i class="fa-solid fa-heart ps-2" style="color: #00ff00;"></i></a>
           </div>
           
-          <div class="play-pause-control d-flex align-items-center justify-content-center px-1">
-
+          <div class="col-6 play-pause-control d-flex flex-column align-items-center justify-content-center px-1">
+            <div class="play-pause-control-row1 d-flex align-items-center justify-content-center p-1 m-1">
+              <img class="mx-2 control-button" src="./assets/raphael_shuffle.svg" alt="controls">
+              <img class="mx-2 control-button" src="./assets/previous.svg" alt="controls">
+              <button type="menu" class="play-button d-flex align-items-center justify-content-center">
+                <img src="./assets/play_pause.svg" alt="controls">
+              </button>
+              <img class="mx-2 control-button" src="./assets/skip.svg" alt="controls">
+              <img class="mx-2 control-button" src="./assets/replay.svg" alt="controls">
+            </div>
+            <div class="d-flex align-items-center play-pause-control-row2 ">
+              <div class="d-flex justify-content-center col-1 progress-value">1:03</div>
+              <div class="progress col-10">
+                <div class="progress-bar bg-white" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="d-flex justify-content-center col-1 progress-value">2:42</div>
+            </div>
           </div>
-          <div></div>
-        </div>
-        <div class="play-on-device">
 
+          <div class="col-3 p-2 d-flex align-items-center justify-content-end">
+            <div class="volume-sect" role="" ><img src="./assets/music-player/ph_microphone-stage.svg" alt="lyrics"></div>
+            <div class="volume-sect" role="" ><img src="./assets/music-player/carbon_query-queue.svg" alt="queue"></div>
+            <div class="volume-sect" role="" >
+              <div class="vector"><img src="./assets/music-player/Vector 1.svg" alt="pointer"></div>
+              <img src="./assets/music-player/carbon_laptop.svg" alt="device">
+            </div>
+            <div class="volume-sect" role="" ><img src="./assets/music-player/Group.svg" alt="vol"></div>
+            
+            <div class="w-25 vol">
+              <div class="progress">
+                <div class="progress-bar bg-white" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="volume-sect p-1" role="" ><img src="./assets/music-player/full-screensvg.svg" alt="fullscreen"></div>
+          </div>
+        </div>
+        <div class="play-on-device d-flex align-items-center justify-content-end">
+          <img src="./assets/music-player/footer-msg.svg" alt="footer" class="mx-1">
+          <div class="footer-msg me-5">Listening on ASUS-ROG-G531GT</div>
         </div>
       </footer>
-    </main>+
+    </main>
 
     <!-- BOOTSRAP JS CDN -->
     <script

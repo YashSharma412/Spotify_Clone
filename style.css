@@ -9,7 +9,7 @@ main {
   background-color: black;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 3.5fr 0.85fr;
+  grid-template-rows: 1fr 3.5fr 1fr;
   gap: 1px;
 }
 
@@ -85,8 +85,8 @@ main {
 }
 
 .nav-arrows {
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 30px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -98,14 +98,19 @@ main {
 .right-nav-pill {
   width: fit-content;
   box-sizing: border-box;
-  height: 38px;
+  height: 30px;
   border-radius: 50px;
   background-color: #131313;
 }
 
+.user-image{
+  height: 28px;
+  width: 28px;
+}
+
 .right-nav-pill > p {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
   margin-top: 2px;
   color: white;
@@ -242,7 +247,8 @@ a{
 }
 
 .Playlist-Block-entry {
-  width: 32%;
+  width: 30%;
+  height: 65px;
   min-width: 30%;
   background-color: #2c2e44;
   font-size: 18px;
@@ -252,6 +258,7 @@ a{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  position: relative;
 }
 
 .entry-text {
@@ -271,6 +278,9 @@ a{
   justify-content: center;
   color: black;
   display: none;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
 }
 
 .entry-play-button:hover {
@@ -360,13 +370,24 @@ a{
   overflow: hidden !important;
   text-overflow: ellipsis;
 }
+
+.playlist-page{
+  width: 98%;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+
+
+
+
 .music-player{
-  flex: 7;
-  background-color: red;
+  flex: 6;
+  /* background-color: red; */
   padding: 5px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  position: relative;
 }
 
 .current-song-details{
@@ -395,14 +416,71 @@ a{
   letter-spacing: -0.75px;
 }
 
-/* .play-pause-control{
+.play-button{
+  background: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
 
-} */
+.play-button:hover, .control-button:hover{
+  transform: scale(1.07);
+}
+
+.play-pause-control-row2{
+  width: 100%;
+}
+.progress{
+  width: 100%;
+  height: 5px !important;
+  background-color: #535353 !important;
+}
+.progress-value{
+  color: #C4C4C4;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.56px;
+text-align: center;
+}
+
+.volume-sect{
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+  margin-inline: 4px;
+}
+.volume-sect>img{
+  height: 100%;
+  width: 100%;
+}
+.vol{
+  margin-bottom: -3px;
+}
 
 .play-on-device{
   flex: 1;
   background-color: #1fdf64;
 }
+.footer-msg{
+  color: #000;
+font-size: 12px;
+font-weight: 700;
+line-height: 1;
+}
+
+.vector{
+  position: absolute;
+  bottom: -6px;
+}
+
+.volume-sect:hover{
+  transform: scale(1.1);
+}
+.volume-sect:hover .vector{
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   main {
     /* grid-template-columns: 1fr;
