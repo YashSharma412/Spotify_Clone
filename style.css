@@ -411,6 +411,10 @@ header {
   padding-bottom: 50px;
 }
 
+main a{
+  text-decoration: none;
+  color: #7b7b7b;
+}
 .pp-col-right {
   background: linear-gradient(180deg, #90aea7 0%, #819e97 25%, #000 89.7%);
 }
@@ -749,7 +753,10 @@ header {
   font-size: 20px;
   z-index: 1;
 }
-
+.main-window a{
+  text-decoration: none ;
+  color: white !important;
+}
 @media screen and (max-width: 767px) {
   /* main {
 
