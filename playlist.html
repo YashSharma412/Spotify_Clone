@@ -27,141 +27,155 @@
     <title>Spotify -Web Player: Music for everyone</title>
 </head>
 <body>
-    <main>
-        
-      <!-- LEFT SIDE ROW 1 -->
-      <section class="main-col-left-nav d-flex flex-column justify-content-between">
-        <div class="d-flex mb-2">
-          <div class="spotify-logo d-flex align-items-center justify-content-center">
-            <img src="./assets/Spotify-White-Logo.wine.svg" alt="Spotify_Logo">
-          </div>
-        </div>
-        <div class="pill-list p-1 d-flex flex-column">
-         <a href="./index.html"> 
-          <div class="left-nav-pill d-flex my-1">
-            <div class="col-2 align-items-center"><i class="fa-solid fa-house"></i></div>
-            <div class="col-10">Home</div>
-          </div></a>
-          <div class="left-nav-pill d-flex my-1">
-            <div class="col-2 align-items-center"><i class="fa-solid fa-magnifying-glass"></i></div>
-            <div class="col-10">Search</div>
-          </div>
-        </div>
+  <main>
+    
+    <section class="top-side">
 
-    </section>
-    <!--  -->
-    <!-- LEFT SIDE ROW 2 -->
-    <section class="main-col-left-library">
-        <div class="pill-list p-1 d-flex flex-column">
-          <div class="left-nav-pill d-flex my-1">
-            <div class="col-2 align-items-center"><i class="fa-solid fa-compact-disc"></i></div>
-            <div class="col-10">Your Library</div>
-          </div>
-        </div>
-
-        <div class="Library-content-container pt-2">
-
-          <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
-            <div class="col-2 entry-image-container bg-light">
-              <img src="./assets/plus-small.svg" alt="Liked-Songs">
+      <section class="left-side">
+        <!-- LEFT SIDE ROW 1 -->
+        <section class="main-col-left-nav">
+          <div class="d-flex mb-2">
+            <div class="spotify-logo d-flex align-items-center justify-content-center">
+              <img src="./assets/Spotify-White-Logo.wine.svg" alt="Spotify_Logo">
             </div>
-            <div class="col-10 px-3">Create PlayLists</div>
           </div>
-
+          <div class="pill-list p-1 d-flex flex-column">
+            <div class="left-nav-pill d-flex my-1">
+              <div class="col-2 align-items-center"><i class="fa-solid fa-house"></i></div>
+              <div class="col-10">Home</div>
+            </div>
+            <div class="left-nav-pill d-flex my-1">
+              <div class="col-2 align-items-center"><i class="fa-solid fa-magnifying-glass"></i></div>
+              <div class="col-10">Search</div>
+            </div>
+          </div>
+  
+        </section>
+        <!-- LEFT SIDE ROW 2 -->
+        <section class="main-col-left-library">
+          <div class="pill-list p-1 d-flex flex-column">
+            <div class="left-nav-pill d-flex my-1">
+              <div class="col-2 align-items-center"><i class="fa-solid fa-compact-disc"></i></div>
+              <div class="col-10">Your Library</div>
+            </div>
+          </div>
+  
+          <div class="Library-content-container pt-2">
+  
+            <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+              <div class="col-2 entry-image-container bg-light">
+                <img src="./assets/plus-small.svg" alt="Liked-Songs">
+              </div>
+              <div class="col-10 px-3">Create PlayLists</div>
+            </div>
+  
+            
+            <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+              <div class="col-2 entry-image-container ">
+                <img src="./assets/Liked_songs_logo.svg" alt="Liked-Songs">
+              </div>
+              <div class="col-10 px-3">Liked Songs</div>
+            </div>
+  
+            <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+              <div class="col-2 entry-image-container">
+                <img src="./assets/podcast_icon.svg" alt="Liked-Songs">
+              </div>
+              <div class="col-10 px-3">Your Episodes</div>
+            </div>
+            <a href="./playlist.html">
+            <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+              <div class="col-2 entry-image-container">
+                <img src="./assets/poprightnow.png" alt="Liked-Songs">
+              </div>
+              <div class="col-10 px-3">Pop Right Now</div>
+            </div></a>
+  
+            <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+              <div class="col-2 entry-image-container">
+                <img src="./assets/roadtrip.jpeg" alt="Liked-Songs">
+              </div>
+              <div class="col-10 px-3">Road Trip Mix</div>
+            </div>
+  
+            <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+              <div class="col-2 entry-image-container">
+                <img src="https://seeded-session-images.scdn.co/v1/img/artist/4tZwfgrHOc3mvqYlEYSvVi/en" alt="Liked-Songs">
+              </div>
+              <div class="col-10 px-3">Daft Punk</div>
+            </div>
+  
+            <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
+              <div class="col-2 entry-image-container">
+                <img src="./assets/ab67706f00000002a9e1322caa711b3c585d65bf.jpeg" alt="Liked-Songs">
+              </div>
+              <div class="col-10 px-3">Dopamine</div>
+            </div>
+  
+            <ul class="library-list pt-3 ps-3">
+              <li>FAV</li>
+              <li>Daily Mix 1</li>
+              <li>Discover Weekly</li>
+              <li>Malayalam</li>
+              <li>Dance/Electronix Mix</li>
+              <li>EDM/Popular</li>
+            </ul>
+  
+            <div class="d-flex align-items-center p-2">
+              <div class="d-flex align-items-center right-nav-pill bg-transparent p-1">
+                <img src="./assets/install-option.svg" alt="instal icon" class="bg-transparent user-image">
+                <p class="px-4 bg-transparent ">Install App</p>
+                
+            </div>
+  
+            <br><br><br><br><br>
+          </div>
           
-          <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
-            <div class="col-2 entry-image-container ">
-              <img src="./assets/Liked_songs_logo.svg" alt="Liked-Songs">
-            </div>
-            <div class="col-10 px-3">Liked Songs</div>
-          </div>
-
-          <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
-            <div class="col-2 entry-image-container">
-              <img src="./assets/podcast_icon.svg" alt="Liked-Songs">
-            </div>
-            <div class="col-10 px-3">Your Episodes</div>
-          </div>
-
-          
-          <div class="Library-entry custom-bg d-flex align-items-center mb-1 rounded-3 ">
-            <div class="col-2 entry-image-container">
-              <img src="./assets/poprightnow.png" alt="Liked-Songs">
-            </div>
-            <div class="col-10 px-3">Pop Right Now</div>
-          </div>
-
-          <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
-            <div class="col-2 entry-image-container">
-              <img src="./assets/roadtrip.jpeg" alt="Liked-Songs">
-            </div>
-            <div class="col-10 px-3">Road Trip Mix</div>
-          </div>
-
-          <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
-            <div class="col-2 entry-image-container">
-              <img src="https://seeded-session-images.scdn.co/v1/img/artist/4tZwfgrHOc3mvqYlEYSvVi/en" alt="Liked-Songs">
-            </div>
-            <div class="col-10 px-3">Daft Punk</div>
-          </div>
-
-          <div class="Library-entry d-flex align-items-center mb-1 rounded-3 ">
-            <div class="col-2 entry-image-container">
-              <img src="./assets/ab67706f00000002a9e1322caa711b3c585d65bf.jpeg" alt="Liked-Songs">
-            </div>
-            <div class="col-10 px-3">Dopamine</div>
-          </div>
-
-          <ul class="library-list pt-3 ps-3">
-            <li>FAV</li>
-            <li>Daily Mix 1</li>
-            <li>Discover Weekly</li>
-            <li>Malayalam</li>
-            <li>Dance/Electronix Mix</li>
-            <li>EDM/Popular</li>
-          </ul>
-
-          <div class="d-flex align-items-center p-2">
-            <div class="d-flex align-items-center right-nav-pill bg-transparent p-1">
-              <img src="./assets/install-option.svg" alt="instal icon" class="bg-transparent user-image">
-              <p class="px-4 bg-transparent ">Install App</p>             
-          </div>
-
-          <br><br><br><br><br>
-        </div>
-        
+        </section>
+  
       </section>
-
+      
       <!-- RIGHT SIDE ROW 1 COL 2 -->
       <!--  -->
       <section class="main-col-right pp-col-right">
 
         <nav
-          class="my-nav-right d-flex align-items-center justify-content-between pp-nav"
-        >
-          <div class="d-flex bg-transparent p-2">
-            <div class="nav-arrows rounded-circle">
-              <i
-                class="fa-solid fa-angle-left fa-lg"
-                style="color: #7b7b7b"
-              ></i>
+            class="my-nav-right d-flex align-items-center justify-content-between pp-nav"
+          >
+            <div class="d-flex bg-transparent p-2">
+              <div class="nav-arrows rounded-circle">
+                <i
+                  class="fa-solid fa-angle-left fa-lg"
+                  style="color: #7b7b7b"
+                ></i>
+              </div>
+              <div class="nav-arrows rounded-circle">
+                <i
+                  class="fa-solid fa-angle-right fa-lg"
+                  style="color: #7b7b7b"
+                ></i>
+              </div>
+              <div class=" align-items-center justify-content-center my-logo-hidden">
+                <i class="fa-brands fa-spotify" style="color: #1fdf64;"></i>
+              </div>
+              <div class=" align-items-center justify-content-center my-option-hidden mx-2">
+                <i class="fa-solid fa-magnifying-glass" style="color: #7b7b7b;"></i>
+              </div>
+              <div class=" align-items-center justify-content-center my-option-hidden me-2">
+                <a href="./index.html"><i class="fa-solid fa-house" style="color: #7b7b7b;"></i></a>
+              </div>
+             
             </div>
-            <div class="nav-arrows rounded-circle">
-              <i
-                class="fa-solid fa-angle-right fa-lg"
-                style="color: #7b7b7b"
-              ></i>
+            <!-- Install app and User Name Pills  -->
+           
+            <div class="d-flex align-items-center p-2">
+              <div class="d-flex align-items-center right-nav-pill p-1">
+                <img src="./assets/Profile_pic.svg" alt="Profile_pic" class="bg-transparent user-image">
+                <p class="px-2 bg-transparent">Mercy</p>
+                <img src="./assets/fi-ss-caret-down.svg" class="bg-transparent p-1 pe-2">
             </div>
-          </div>
-          <!-- Install app and User Name Pills  -->
-         
-          <div class="d-flex align-items-center p-2">
-            <div class="d-flex align-items-center right-nav-pill p-1">
-              <img src="./assets/Profile_pic.svg" alt="Profile_pic" class="bg-transparent user-image">
-              <p class="px-2 bg-transparent">Mercy</p>
-              <img src="./assets/fi-ss-caret-down.svg" class="bg-transparent p-1 pe-2">
-          </div>
-        </nav>
+            
+          </nav>
 
         <section class="playlist-page">
 
@@ -473,75 +487,63 @@
 
         </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </section>
-      <footer class="main-player-bottom">
-        <div class="music-player">
-          <div class="col-3 px-1 current-song-details d-flex align-items-center justify-content-start">
-            <img class="current-song-img" src="./assets/current-song-image.jpeg" alt="current song image">
-            <div class="d-flex flex-column align-items-start px-2">
-              <h1>Dreaming On</h1>
-              <p>NEFFEX</p>
-            </div>
-            <a href="#"><i class="fa-solid fa-heart ps-2" style="color: #00ff00;"></i></a>
-          </div>
-          
-          <div class="col-6 play-pause-control d-flex flex-column align-items-center justify-content-center px-1">
-            <div class="play-pause-control-row1 d-flex align-items-center justify-content-center p-1 m-1">
-              <img class="mx-2 control-button" src="./assets/raphael_shuffle.svg" alt="controls">
-              <img class="mx-2 control-button" src="./assets/previous.svg" alt="controls">
-              <button type="menu" class="song-play-button d-flex align-items-center justify-content-center">
-                <img src="./assets/play_pause.svg" alt="controls">
-              </button>
-              <img class="mx-2 control-button" src="./assets/skip.svg" alt="controls">
-              <img class="mx-2 control-button" src="./assets/replay.svg" alt="controls">
-            </div>
-            <div class="d-flex align-items-center play-pause-control-row2 ">
-              <div class="d-flex justify-content-center col-1 progress-value">1:03</div>
-              <div class="progress col-10">
-                <div class="progress-bar bg-white" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <div class="d-flex justify-content-center col-1 progress-value">2:42</div>
-            </div>
-          </div>
 
-          <div class="col-3 p-2 d-flex align-items-center justify-content-end">
-            <div class="volume-sect " role="" ><img src="./assets/music-player/ph_microphone-stage.svg" alt="lyrics"></div>
-            <div class="volume-sect" role="" ><img src="./assets/music-player/carbon_query-queue.svg" alt="queue"></div>
-            <div class="volume-sect" role="" >
-              <div class="vector"><img src="./assets/music-player/Vector 1.svg" alt="pointer"></div>
-              <img src="./assets/music-player/carbon_laptop.svg" alt="device">
+    </section>
+
+    <footer class="main-player-bottom">
+      <div class="music-player">
+        <div class="mic-player-p1 px-1 current-song-details ">
+          <img class="current-song-img" src="./assets/current-song-image.jpeg" alt="current song image">
+          <div class="d-flex flex-column align-items-start px-2">
+            <h1>Dreaming On</h1>
+            <p>NEFFEX</p>
+          </div>
+          <a href="#"><i class="fa-solid fa-heart ps-2" style="color: #00ff00;"></i></a>
+        </div>
+        
+        <div class="mic-player-p2 play-pause-control px-1">
+          <div class="play-pause-control-row1 d-flex align-items-center justify-content-center p-1 m-1">
+            <img class="mx-2 control-button" src="./assets/raphael_shuffle.svg" alt="controls">
+            <img class="mx-2 control-button" src="./assets/previous.svg" alt="controls">
+            <button type="menu" class="song-play-button d-flex align-items-center justify-content-center">
+              <img src="./assets/play_pause.svg" alt="controls">
+            </button>
+            <img class="mx-2 control-button" src="./assets/skip.svg" alt="controls">
+            <img class="mx-2 control-button" src="./assets/replay.svg" alt="controls">
+          </div>
+          <div class="d-flex align-items-center play-pause-control-row2 ">
+            <div class="d-flex justify-content-center col-1 progress-value">1:03</div>
+            <div class="progress col-10">
+              <div class="progress-bar bg-white" role="progressbar" style="width: 35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="volume-sect" role="" ><img src="./assets/music-player/Group.svg" alt="vol"></div>
-            
-            <div class="w-25 vol">
-              <div class="progress">
-                <div class="progress-bar bg-white" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="volume-sect p-1" role="" ><img src="./assets/music-player/full-screensvg.svg" alt="fullscreen"></div>
+            <div class="d-flex justify-content-center col-1 progress-value">2:42</div>
           </div>
         </div>
-        <div class="play-on-device d-flex align-items-center justify-content-end">
-          <img src="./assets/music-player/footer-msg.svg" alt="footer" class="mx-1">
-          <div class="footer-msg me-5">Listening on ASUS-ROG-G531GT</div>
+
+        <div class="mic-player-p3 p-2 hide-controls">
+          <div class="volume-sect" role="" ><img src="./assets/music-player/ph_microphone-stage.svg" alt="lyrics"></div>
+          <div class="volume-sect" role="" ><img src="./assets/music-player/carbon_query-queue.svg" alt="queue"></div>
+          <div class="volume-sect" role="" >
+            <div class="vector"><img src="./assets/music-player/Vector 1.svg" alt="pointer"></div>
+            <img src="./assets/music-player/carbon_laptop.svg" alt="device">
+          </div>
+          <div class="volume-sect" role="" ><img src="./assets/music-player/Group.svg" alt="vol"></div>
+          
+          <div class="w-25 vol">
+            <div class="progress">
+              <div class="progress-bar bg-white" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="volume-sect p-1" role="" ><img src="./assets/music-player/full-screensvg.svg" alt="fullscreen"></div>
         </div>
-      </footer>
-    </main>
+      </div>
+      <div class="play-on-device d-flex align-items-center justify-content-end">
+        <img src="./assets/music-player/footer-msg.svg" alt="footer" class="mx-1">
+        <div class="footer-msg me-5">Listening on ASUS-ROG-G531GT</div>
+      </div>
+    </footer>
+  </main>
 
     <!-- BOOTSRAP JS CDN -->
     <script
